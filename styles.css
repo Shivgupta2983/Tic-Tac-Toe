@@ -1,0 +1,225 @@
+/* General Body */
+/* General Body */
+body {
+  background: #FAF9F6;
+  color: #585858;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.7em;
+  background-image: url(DeWatermark.ai_1739121065652.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  /* Prevents scrolling */
+}
+
+/* Ensure modal does not affect background */
+.modal {
+  display: none;
+  position: fixed;
+  background-image: url('DeWatermark.ai_1739121065652.png');
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* Prevent scrolling inside modal */
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+/* Modal Content */
+.modal-content {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  margin: 13% auto;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 10px;
+  width: 380px;
+  max-width: 80%;
+  overflow: hidden;
+  /* Ensures no scrolling inside modal */
+}
+
+
+/* Content Wrapper */
+.content {
+  background: rgba(255, 255, 255, 0.6);
+  /* Semi-transparent white background */
+  backdrop-filter: blur(10px);
+  /* Apply blur effect */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 1200px;
+}
+
+/* Main Heading */
+h1 {
+  line-height: 1em;
+  
+  padding-bottom: 5px;
+  font-size: 2.8em;
+  font-weight: bold;
+  color: #7B3F3F;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 0 10px 0;
+}
+
+/* Subheadings */
+h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  margin: 10px 0 10px 0;
+  color: #7B3F3F;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h3 {
+  font-size: 1.1em;
+  padding: 0;
+  margin: 10px 0 10px 0;
+  color: #585858;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Modal Background */
+
+
+/* Modal Content */
+
+
+
+/* #restart {
+  line-height: 2em;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #7B3F3F;
+  font-family: 'Montserrat', sans-serif;
+  margin: 13px 0px -27px 0px
+} */
+
+/* Main Heading */
+
+
+
+
+/* Table Styles */
+table {
+  margin: 2% auto;
+  border-collapse: collapse;
+}
+
+#table_game {
+  position: relative;
+  font-size: 120px;
+  margin: 1% auto;
+  border-collapse: collapse;
+}
+
+.td_game {
+  border: 4px solid #D0B8A8;
+  /* Light beige border for a soft touch */
+  width: 90px;
+  height: 90px;
+  padding: 0;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.fixed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 125px;
+  height: 120px;
+  font-size: 0.9em;
+  /* Adjusted size */
+  line-height: normal;
+  cursor: pointer;
+}
+
+/* Styling for game pieces */
+.x {
+  color: #7B3F3F;
+  /* Deep red for 'X' */
+  position: relative;
+  top: -8px;
+  font-size: 1.2em;
+  cursor: default;
+}
+
+.o {
+  color: #585858;
+  /* Dark gray for 'O' */
+  position: relative;
+  top: -7px;
+  font-size: 1.0em;
+  cursor: default;
+}
+
+/* Modal Background */
+
+
+/* Modal Content */
+
+#playbtn {
+  margin: 10px 0 10px 12px;
+}
+
+
+/* Close button for modal dialog */
+.close {
+  color: #585858;
+  /* Dark gray for close button */
+  float: right;
+  position: relative;
+  top: -25px;
+  right: -10px;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Win Color */
+.win-color {
+  background-color: #FAF9F6;
+  /* Off-white background for win */
+}
+
+/* Interactive Elements */
+button,
+.link {
+  background-color: #7B3F3F;
+  /* Deep red for interactive buttons */
+  color: #FAF9F6;
+  /* Off-white text */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  /* Friendly font for buttons */
+}
+
+button:hover,
+.link:hover {
+  background-color: #6b3e3e;
+  /* Lighter tint of red on hover */
+}
