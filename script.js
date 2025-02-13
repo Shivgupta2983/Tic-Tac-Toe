@@ -17,9 +17,9 @@ window.onclick = function (evt) {
     }
 };
 
-//==================================
-// HELPER FUNCTIONS
-//==================================
+//==================================//
+// HELPER FUNCTIONS                 //
+//==================================//
 function sumArray(array) {
     var sum = 0,
         i = 0;
@@ -76,12 +76,13 @@ var moves = 0,
     difficulty = 1,
     myGrid = null;
 
-//==================================
-// GRID OBJECT
-//==================================
+//==================================//
+// GRID OBJECT                      //
+//==================================//
 
-// Grid constructor
-//=================
+//=================//
+// Grid constructor//
+//=================//
 function Grid() {
     this.cells = new Array(9);
 }
@@ -230,9 +231,9 @@ Grid.prototype.reset = function () {
     return true;
 };
 
-//==================================
-// MAIN FUNCTIONS
-//==================================
+//==================================//
+// MAIN FUNCTIONS                   //
+//==================================//
 
 // executed when the page loads
 function initialize() {
@@ -240,6 +241,7 @@ function initialize() {
     moves = 0;
     winner = 0;
     gameOver = false;
+    console.log("Made By SHIV GUPTA")
     whoseTurn = player; // default, this may change
     for (var i = 0; i <= myGrid.cells.length - 1; i++) {
         myGrid.cells[i] = 0;
