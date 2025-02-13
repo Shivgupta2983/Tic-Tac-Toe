@@ -1,6 +1,6 @@
 # Tic-Tac-Toe Game 🕹️
 
-![alt text](https://github.com/Shivgupta2983/Tic-Tac-Toe/blob/797de5fe59149965600f8ae8823f78b5a9ba8449/Background%20Image.png)
+![alt text](https://github.com/Shivgupta2983/Tic-Tac-Toe/blob/bb53c6151cb5d8b73f4719859165e531b1868f23/Background%20Image.png)
 
 
 ## Overview
