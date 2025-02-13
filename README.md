@@ -1,5 +1,7 @@
 # Tic-Tac-Toe Game 🕹️
 
+
+## Preview
 ![alt text](https://github.com/Shivgupta2983/Tic-Tac-Toe/blob/8cff6a84f9926a6fdff46e0d2264d5f8d31b615a/Preview%20Image.png)
 
 
