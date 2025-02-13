@@ -1,78 +1,79 @@
-Here's a well-structured and attractive README file for your GitHub repository:  
+# Tic-Tac-Toe Game
 
----
+![Tic-Tac-Toe Game](https://github.com//blob/main/preview.png?raw=true)
 
-### 🕹️ Tic-Tac-Toe Game  
-*A Classic Tic-Tac-Toe Game in Python*  
+## Overview
 
-![Tic-Tac-Toe Banner](https://user-images.githubusercontent.com/your-image-url) *(You can add a relevant banner here!)*  
+This is a classic Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript. You can play against a computer AI with adjustable difficulty. The game features a clean and user-friendly interface with options to customize your playing experience.
 
----
+## Features
 
-## 🚀 About the Project  
-This is a simple **Tic-Tac-Toe** game built in Python. It allows two players to take turns and play the classic game in the terminal. The program follows standard Tic-Tac-Toe rules and provides a smooth user experience.
+*   **Play against AI**: Challenge yourself against a computer opponent.
+*   **Adjustable difficulty**: Choose between Easy and Hard AI difficulty levels.
+*   **Play as X or O**: Select whether you want to play as X or O (going first).
+*   **Score tracking**: Keeps track of your wins, losses, and draws against the computer.
+*   **Responsive design**: Playable on various screen sizes.
+*   **Modal Options**: Options to change difficulty and play mode.
 
----
+## Technologies Used
 
-## 🛠️ Features  
-✅ **Two-Player Mode** – Play with a friend!  
-✅ **User-Friendly Interface** – Simple and interactive console UI.  
-✅ **Error Handling** – Ensures valid moves and prevents overwriting.  
-✅ **Win Detection** – Identifies winners or a draw.  
-✅ **Lightweight & Fast** – Runs on any system with Python installed.  
+*   HTML
+*   CSS
+*   JavaScript
 
----
+## How to Play
 
-## 📷 Demo  
-📌 Example gameplay:  
-```
-  X | O | X  
-  ---------  
-  O | X | O  
-  ---------  
-  X | O | X  
-```
-🎉 **Result: It's a Draw!** 🎉  
+1.  Clone the repository to your local machine.
+2.  Open the `index.html` file in your web browser.
+3.  Configure your game preferences using the provided options:
+    *   Select the difficulty level (Easy or Hard).
+    *   Choose to play as X or O.
+4.  Click the "Play" button to start the game.
+5.  Click on an empty cell in the Tic-Tac-Toe grid to make your move.
+6.  The computer AI will make its move after you.
+7.  The game continues until either a player wins, or it's a draw.
+8.  Click the "Restart Game" button to play again.
 
-*(You can add a GIF or screenshot here!)*  
+## Game Logic
 
----
+The JavaScript code implements the core game logic, including:
 
-## 🔧 Installation & Usage  
+*   **AI Strategy**: The computer AI uses a `getFirstWithTwoInARow` function to find the best move. The AI will try to win first or block the player from winning.
+*   **Win Condition Check**: The `checkWin` function determines if there is a winner by checking rows, columns, and diagonals.
+*   **Grid Management**: The `Grid` object manages the state of the Tic-Tac-Toe board.
+*   **Turn Management**: The `cellClicked` and `makeComputerMove` functions manage the turns of the player and the computer.
 
-### 🔹 Prerequisites  
-Ensure you have **Python 3+** installed on your system.  
+## Code Structure
 
-### 🔹 Clone the Repository  
-```sh
-git clone https://github.com/Shivgupta2983/Tic-Tac-Toe.git
-cd Tic-Tac-Toe
-```
+*   `index.html`: Contains the HTML structure of the game, including the game board, buttons, and modal.
+*   `styles.css`: Contains the CSS styles for the game, including the layout, colors, and fonts.
+*   `script.js`: Contains the JavaScript code for the game logic and user interface.
 
-### 🔹 Run the Game  
-```sh
-python tic_tac_toe.py
-```
+## Customization
 
----
+You can customize the game by modifying the following:
 
-## 🤝 Contributing  
-Contributions are welcome! If you find any issues or want to add new features, feel free to:  
-🔹 Fork the repository  
-🔹 Create a new branch  
-🔹 Commit your changes  
-🔹 Submit a pull request  
+*   **CSS styles**: Change the colors, fonts, and layout of the game by editing the `styles.css` file.
+*   **AI difficulty**: Adjust the AI difficulty by modifying the `makeComputerMove` function in the `script.js` file.
+*   **Game messages**: Change the game messages by modifying the text in the `index.html` file.
 
----
+## Future Enhancements
 
-## 📜 License  
-This project is open-source and available under the **MIT License**.  
+*   Implement a Minimax algorithm for the AI to improve its decision-making.
+*   Add a two-player mode.
+*   Implement a more attractive user interface.
+*   Add sound effects and animations.
 
----
+## Credits
 
-## 📬 Contact  
-👤 **Shiv Gupta**  
-📌 GitHub: [Shivgupta2983](https://github.com/Shivgupta2983)  
-📌 Email: *[Your Email Here]*  
+*   Game Developed by: Shiv Gupta
+*   Inspired by the classic Tic-Tac-Toe game.
 
----
+## License
+
+[MIT License](LICENSE)
+
+## Preview
+
+Include a visually appealing screenshot or GIF of the game in action. Replace the URL in the `[]()` with the actual path to your image.
+
