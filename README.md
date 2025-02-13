@@ -1,6 +1,6 @@
 # Tic-Tac-Toe Game 🕹️
 
-![alt text](https://github.com/Shivgupta2983/Tic-Tac-Toe/blob/bb53c6151cb5d8b73f4719859165e531b1868f23/Background%20Image.png)
+![alt text](https://github.com/Shivgupta2983/Tic-Tac-Toe/blob/8cff6a84f9926a6fdff46e0d2264d5f8d31b615a/Preview%20Image.png)
 
 
 ## Overview
@@ -73,8 +73,3 @@ You can customize the game by modifying the following:
 ## License
 
 [MIT License](LICENSE) 📝
-
-## Preview
-
-Include a visually appealing screenshot or GIF of the game in action. Replace the URL in the `[]()` with the actual path to your image. 🖼️
-
