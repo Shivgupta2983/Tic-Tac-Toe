@@ -1,6 +1,6 @@
 # Tic-Tac-Toe Game 🕹️
 
-![Uploading Screenshot 2025-02-13 151639.png…]()
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 
 ## Overview
