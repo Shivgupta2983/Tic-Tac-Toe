@@ -74,4 +74,4 @@ You can customize the game by modifying the following:
 
 ## License
 
-[GPL-3.0 License](LICENSE) 📝
+[GNU General Public License v3.0](LICENSE) 📝
